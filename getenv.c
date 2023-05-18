@@ -3,7 +3,7 @@
 /**
  * _unsetenv - To remove the env't variable
  * @info: structure to be containing potential argument.
- *  Return: on delete 1, else 0. 
+ * Return: on delete 1, else 0.
  * @var: The property of a string env var property
  */
 int _unsetenv(info_t *info, char *var)

@@ -3,7 +3,7 @@
 /**
  * **strtow2 - Split the string to words.
  * @str: An input string.
- * @d: The delimeter.
+ * @b: The delimeter.
  * Return: NULL on failure, a pointer to an array of the string.
  */
 char **strtow2(char *str, char b)

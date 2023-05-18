@@ -91,19 +91,19 @@ ssize_t get_input(info_t *info)
  * read_buf - To reads the buffer
  * @info: A parameter struct
  * @buf: The buffer
- * @i: A ize
- * Return: k
+ * @m: A size
+ * Return: c
  */
-ssize_t read_buf(info_t *info, char *buf, size_t *j)
+ssize_t read_buf(info_t *info, char *buf, size_t *m)
 {
-	ssize_t k = 0;
+	ssize_t c = 0;
 
-	if (*j)
+	if (*m)
 		return (0);
-	k = read(info->readfd, buf, READ_BUF_SIZE);
-	if (k >= 0)
-		*j = k;
-	return (k);
+	c = read(info->readfd, buf, READ_BUF_SIZE);
+	if (c >= 0)
+		*m = c;
+	return (c);
 }
 
 /**

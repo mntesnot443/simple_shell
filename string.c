@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 
 /**
  * _strlen - Return a length of the string.
- * @s: A string whose length to be checked.
+ * @z: A string whose length to be checked.
  * Return: An integer length of a string.
  */
 int _strlen(char *z)
@@ -37,9 +37,10 @@ int _strlen(char *z)
 
 /**
  * _strcmp - Performs lexicogarphic comparison of the two strangs.
- * @s1: The 1st strang
- * @s2: The 2nd strang
- * Return: If z1 < z2 Negative (-), if z1 > z2 Positive (+), if z1 == z2 Zero (0).
+ * @z1: The 1st strang
+ * @z2: The 2nd strang
+ * Return: If z1 < z2 Negative (-), if z1 > z2 Positive (+),
+ *		if z1 == z2 Zero (0).
  */
 int _strcmp(char *z1, char *z2)
 {

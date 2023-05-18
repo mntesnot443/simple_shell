@@ -6,7 +6,7 @@
  * @av: An arg vector
  * Return: on success 0, on error 1.
  */
-int main(int ij, char **av)
+int main(int ac, char **av)
 {
 	info_t info[] = { INFO_INIT };
 	int fd = 2;
