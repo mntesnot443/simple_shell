@@ -16,7 +16,7 @@ int main(int ac, char **av)
 		: "=r" (fd)
 		: "r" (fd));
 
-	if (ij == 2)
+	if (ac == 2)
 	{
 		fd = open(av[1], O_RDONLY);
 		if (fd == -1)
